@@ -28,7 +28,13 @@ public class MaximumTest<T extends Comparable<T>> {
 		System.out.printf("Max of %s,%s and %s is %s \n\n",x,y,z,max);
 		}     
 	public static void main(String args[]) {
-		Integer xInt = 3,yInt = 4,zInt = 5;
-                new MaximumTest<Integer>(xInt,yInt,zInt).maximum();
-	}
+		Float xFl = 8.8f,yFl = 6.6f,zFl = 7.7f;
+		new MaximumTest<Float>(xFl,yFl,zFl).maximum();
+		Float xFl = 6.6f,yFl = 8.8f,zFl = 7.7f;
+                new MaximumTest<Float>(xFl,yFl,zFl).maximum();
+		Float xFl = 6.6f,yFl = 7.7f,zFl = 8.8f;
+                new MaximumTest<Float>(xFl,yFl,zFl).maximum();
+
+	
+}
 	}
