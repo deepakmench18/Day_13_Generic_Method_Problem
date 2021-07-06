@@ -28,7 +28,7 @@ public class MaximumTest<T extends Comparable<T>> {
 		System.out.printf("Max of %s,%s and %s is %s \n\n",x,y,z,max);
 		}     
 	public static void main(String args[]) {
-		Integer xInt = 5,yInt = 3,zInt = 4;
+		Integer xInt = 3,yInt = 5,zInt = 4;
                 new MaximumTest<Integer>(xInt,yInt,zInt).maximum();
 	}
 	}
